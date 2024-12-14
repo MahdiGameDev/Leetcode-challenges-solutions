@@ -69,9 +69,11 @@ long myAtoi(char* string) {
     return result;
 }
 
-void main() {
-    char s[2024];
-    scanf("%s", s);
-    long i = myAtoi(s);
-    printf("%ld", i);
+int main() {
+    char string[2024];
+    printf("enter a sequence of characters\n");
+    scanf("%s", string);
+    long integer = myAtoi(string);
+    printf("%ld", integer);
+    return 0;
 }
