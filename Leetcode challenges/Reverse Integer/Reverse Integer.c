@@ -80,8 +80,9 @@ int reverse(int x){
 }
 
 int main() {
-    int x;
-    scanf("%ld", &x);
-    printf("%ld", reverse(x));
+    int integer;
+    printf("enter an integer number\n");
+    scanf("%ld", &integer);
+    printf("%ld", reverse(integer));
     return 0;
 }
